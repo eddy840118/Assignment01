@@ -24,7 +24,7 @@ body {
 }
 
 .main-footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -42,7 +42,7 @@ body {
     overflow:auto;
 }
 .bio-container {
-    background-color:#99c39b;  
+ 
 }
 .avatar {
     width:180px;
@@ -124,15 +124,17 @@ body {
 
 /* login page*/
 .login-container {
-    height:500px;
+    width:500px;
+    margin:200px auto 200px auto;
     padding:25px;
+    background-color:#ccc
 }
 
 .login-input {
     width: 100%;
     height: 50px;
     border-radius: 15px;
-    margin: 10px auto;
+    margin: 15px auto;
   }
 
   .btn-login {
@@ -143,3 +145,24 @@ body {
     font-size: 20px;
     float:right;
   }
+
+
+.login {
+    width:500px;
+    margin: 100px auto;
+}
+
+.main-login-container {
+    width:100%;
+    height:100%;
+    background-image:url('../img/1.jpg')
+}
+
+.bottom-login-container {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+}
+.login-logo >img{
+   padding: 0 0 50px 80px;
+}
