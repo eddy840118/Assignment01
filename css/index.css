@@ -208,15 +208,15 @@
     padding:7px 13px;
   }
   .btn-buynow {
-    padding:7px 13px;
-    color:rgb(138, 136, 136);
-    background-color:rgb(118, 31, 233);
-    border-radius:10px;
-    width:calc(100%-30px);
-    text-align:center;
-    display:block;
-
-
+    padding: 10px 15px;
+    color: #cb4b28;
+    background-color: #98c39b;
+    border-radius: 7px;
+    width: calc(100% - 30px);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
   }
   .product {
     width: 100%;
@@ -234,4 +234,7 @@
     width:140px;
     float:right;
     margin-bottom:20px;
+  }
+  .btn-container {
+    overflow: auto;
   }
