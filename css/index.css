@@ -198,3 +198,40 @@
     margin-bottom: 5px;
     border-radius: 6px;
   }
+  /* Product Grid */
+  .product-grid {
+    width: 100%;
+    border:1px solid #ccc;
+  }
+  .product-grid tr td{
+    border:1px solid black; 
+    padding:7px 13px;
+  }
+  .btn-buynow {
+    padding:7px 13px;
+    color:rgb(138, 136, 136);
+    background-color:rgb(118, 31, 233);
+    border-radius:10px;
+    width:calc(100%-30px);
+    text-align:center;
+    display:block;
+
+
+  }
+  .product {
+    width: 100%;
+    max-width: 175px;
+    height:100px;
+    text-align: center;
+    display:block;
+    margin:0 auto;
+  }
+  .btn-primary {
+    padding:7px 13px;
+    color:rgb(138, 136, 136);
+    background-color:rgb(118, 31, 233);
+    border-radius:10px;
+    width:140px;
+    float:right;
+    margin-bottom:20px;
+  }

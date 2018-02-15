@@ -5,7 +5,7 @@ function login() {
   // get element ref from template file
   var username = document.getElementById('username');
   var password = document.getElementById('password');
-  if (username.value == 'lucas' && password.value == 'lucas123') {
+  if (username.value == 'eddy' && password.value == 'eddy123') {
     window.location.href = './index.html';
     counter = 0;
   } else {
