@@ -13,7 +13,7 @@
 
   .main-header,
   .main-footer {
-    background-color: #cb4c28;
+    background-color: #92e2f0;
     height: 50px;
   }
 
@@ -47,7 +47,7 @@
 
   .bio-container {
     height: 140px;
-    background-color: #99c39b;
+    background-color: #d5f3d7;
   }
 
   .avatar {
@@ -146,7 +146,7 @@
 
   .btn-login {
     padding: 15px 30px;
-    background: green;
+    background: rgb(103, 179, 241);
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -156,8 +156,8 @@
   .login-container {
     padding:20px;
     width: 450px;
-    height: 495px;
-    background-color: #cb4d28;
+    height: 600px;
+    background-color: #050505;
     position: absolute;
     left: 0;
     right: 0;
@@ -193,7 +193,7 @@
     display: none;
     color: #FFF;
     font-weight: bold;
-    background-color:#ebd900;
+    background-color:#f3e227;
     padding: 5px 20px;
     margin-bottom: 5px;
     border-radius: 6px;
